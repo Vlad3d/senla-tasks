@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.awt.geom.Line2D;
 
-public class Task5 {
+public class Task1 {
 
     static BufferedReader in;
     static PrintWriter out;
@@ -14,7 +14,7 @@ public class Task5 {
         out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
         
         tok = new StringTokenizer("");
-        new Task5().solve();
+        new Task1().solve();
         out.flush();
         out.close();
     }
@@ -29,6 +29,7 @@ public class Task5 {
                 out.print(i + " ");
             }
         }
+	out.println();
     }
     
     void sieve(int n) {

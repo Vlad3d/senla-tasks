@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.awt.geom.Line2D;
 
-public class Task5 {
+public class Task6 {
 
     static BufferedReader in;
     static PrintWriter out;
@@ -14,14 +14,14 @@ public class Task5 {
         out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
         
         tok = new StringTokenizer("");
-        new Task5().solve();
+        new Task6().solve();
         out.flush();
         out.close();
     }
 
     void solve() throws IOException {
         System.out.println("Input string");
-        String str = nextTok();
+        String str = nextLine();
         out.println(str.replaceAll("[0-9]", ""));
     }
     
